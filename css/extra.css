@@ -1,0 +1,138 @@
+/* ======= Navbar ======= */
+.site__navbar {
+  background-color: rgba(0, 0, 0, .6);
+}
+/* ======= end Navbar ======= */
+
+/* ======= Header ======= */
+.site__title {
+  background-color: rgba(0,0,0,.4);
+  padding: 5rem;
+  position: relative;
+}
+.site__title .title {
+  padding: 1rem 2rem;
+  border: 2px solid #9b9b9b;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+@media (min-width: 768px) {
+  .site__title .title {
+    font-size: 24px;
+  }
+}
+.account {
+  background-color: rgba(0,0,0,.3);
+  padding: .5rem 1rem;
+  position: absolute;
+  top: 1rem;
+  right: 0;
+}
+.account > svg {
+  margin-right: 1rem;
+}
+.avatar {
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid white;
+}
+.user p {
+  color: white;
+  padding-left: 1rem;
+}
+.user p:first-child {
+  margin-bottom: 0;
+}
+.user p:nth-child(2) {
+  text-align: right;
+  margin-bottom: 0;
+}
+.user p span {
+  font-size: 2rem;;
+  font-weight: 600;
+}
+/* ======= end Header ======= */
+
+/* ======= Video ======= */
+.site__video .video {
+  height: 16rem;
+  position: relative;
+}
+.site__video .video:nth-of-type(1) {
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#ee3150), to(#ed1a80));
+  background-image: -webkit-linear-gradient(top right, #ee3150, #ed1a80);
+  background-image: -o-linear-gradient(top right, #ee3150, #ed1a80);
+  background-image: linear-gradient(to bottom left, #ee3150, #ed1a80);
+}
+.site__video .video:nth-of-type(2) {
+  background-color: #fff;
+}
+.site__video .video div {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #cecece;
+  font-weight: 300;
+} 
+.site__video .video:nth-of-type(2) div {
+  left: 1rem;
+} 
+/* ======= end Video ======= */
+
+/* ======= Infographic ======= */
+.site__infographic {
+  background-color: #c3c3c3;
+  height: 12rem;
+  position: relative;
+}
+.site__infographic div {
+  color: #7b7b7b;
+  position: absolute;
+  bottom: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  left: 50%;
+  transform: translate(-50%)
+}
+/* ======= end Infographic ======= */
+
+/* ======= Level ======= */
+.site__level {
+  background: url('../assets/the_tin_dung_level_background.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  padding: 3rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: -3rem;
+}
+@media (min-width: 768px) {
+  .site__level > div:first-child {
+    margin-right: 3rem;
+  }
+}
+.site__level > div {
+  margin-top: 3rem;
+}
+.site__level > div > p {
+  text-align: center;
+  margin-bottom: 0;
+  background-color: #878787;
+  color: #ededed;
+  padding: .8rem;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.site__level .placeholder {
+  width: 18rem;
+  height: 16rem;
+  background-color: #fff;
+}
+/* ======= end Level ======= */

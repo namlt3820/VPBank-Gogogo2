@@ -1,0 +1,122 @@
+body {
+  background: url('../assets/index.jpg') no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 0% 100%;
+}
+
+/* ======= Account ======= */
+@media (min-width: 768px) {
+  .site__account {
+    padding-top: 25px;
+  }
+}
+.site__account div:first-child {
+  background-color: rgba(0,0,0,.5);
+}
+.site__account .avatar {
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#ee3150), to(#ed1c7c));
+  background-image: -webkit-linear-gradient(top right, #ee3150, #ed1c7c);
+  background-image: -o-linear-gradient(top right, #ee3150, #ed1c7c);
+  background-image: linear-gradient(to bottom left, #ee3150, #ed1c7c);
+}
+.site__account .user {
+  background-color: rgba(0, 0, 0, .3);
+  padding: .8rem 1rem;
+  padding-bottom: 0;
+  display: inline-block;
+}
+.site__account .user + div {
+  display: inline-block;
+  height: 92.8px;
+}
+.site__account .user p:first-child {
+  font-weight: lighter;
+  color: white;
+  font-size: 1rem;
+  text-align: right;
+  margin-bottom: .5rem;
+}
+.site__account .user p:nth-child(2) {
+  margin-bottom: 0;
+  text-align: right;
+}
+.site__account .user span {
+  font-size: 2rem;
+  color: white;
+  font-weight: 600;
+}
+/* ======= end Account ======= */
+
+/* ======= site__welcome ======= */
+.site__welcome p {
+  color: white;
+  text-shadow: 1px 1px 7px rgba(150, 150, 150, 1);
+}
+.site__welcome p:first-of-type {
+  text-transform: uppercase;
+}
+.site__welcome p:nth-of-type(2) {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+@media(min-width: 768px) {
+  .site__welcome p:nth-of-type(2) {
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+}
+.site__form {
+  padding: 2rem;
+  background-color: #fff;
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+}
+.site__form p {
+  text-shadow: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.site__form .row {
+  margin-top: -1rem;
+}
+.site__form .row .col-12 {
+  margin-top: 1rem;
+}
+.site__choose {
+  width: 100%;
+  padding: .9rem ;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 2px 13px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    2px 2px 13px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         2px 2px 13px 0px rgba(50, 50, 50, 0.75);
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#ee3150), to(#ed1a80));
+  background-image: -webkit-linear-gradient(top right, #ee3150, #ed1a80);
+  background-image: -o-linear-gradient(top right, #ee3150, #ed1a80);
+  background-image: linear-gradient(to bottom left, #ee3150, #ed1a80);
+  background-color: #ee3150;
+}
+.site__choose:hover {
+  cursor: pointer;
+  background-image: none;
+  background-color: #a51259;
+}
+.site__select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") white no-repeat 98.5% !important; /* !important used for overriding all other customisations */
+  background: url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") white no-repeat calc(100% - 10px) !important; /* Better placement regardless of input width */
+  height: 58.78px !important;
+}
+/* ======= end site__section1 ======= */

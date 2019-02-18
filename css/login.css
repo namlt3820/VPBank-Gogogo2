@@ -1,0 +1,145 @@
+body {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+  position: relative;
+}
+
+/* ======= Brand ======= */
+.site__brand {
+  margin-bottom: 4rem;
+}
+.site__brand img{
+  height: auto;
+  width: 70%;
+}
+@media (min-width: 768px) {
+  .site__brand img {
+    max-width: 40%;
+  }
+}
+/* ======= end Brand ======= */
+
+/* ======= Login Box ======= */
+[class*="login__"] {
+  padding: 2rem;
+}
+.login__box {
+  background-color: rgba(0,0,0,.3);
+}
+.login__box h5 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+} 
+.login__box hr {
+  background-color: rgba(255, 255, 255, .6);
+  margin-bottom: 4rem;
+}
+#login__form {
+  margin-bottom: 2rem;
+}
+#login__form > input {
+  padding: 1rem .5rem;
+  background-color: transparent;
+  width: 100%;
+  border: .5px solid white;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+#login__form input::placeholder {
+  color: rgba(255, 255, 255, .5);
+  text-transform: uppercase;
+}
+/* ======= end Login Box ======= */
+
+/* ======= Remember Me ======= */
+.remember-me {
+  position: relative;
+  cursor: pointer;
+}
+.remember-me input {
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+} 
+.remember-me input:checked ~ .custom-checkbox {
+  background-color: rgb(28, 132, 218);
+}
+.custom-checkbox:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.remember-me input:checked ~ .custom-checkbox:after {
+  display: block;
+}
+.remember-me .custom-checkbox:after {
+  left: 5px;
+  top: 3px;
+  width: 7.5px;
+  height: 12.5px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.remember-me .custom-checkbox {
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 1px solid #c4c4c4;
+  display: inline-block;
+}
+.remember-me label {
+  margin-bottom: 0;
+  margin-left: .5rem;
+  color: white;
+  cursor: pointer;
+}
+/* ======= end Remember Me ======= */
+
+/* ======= Submit ======= */
+.submit__container {
+  position: relative;
+  cursor: pointer;
+}
+.submit__container input {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+}
+.submit__icon {
+  width: 4rem;
+  height: 4rem;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#ee3150), to(#ed1c7c));
+  background-image: -webkit-linear-gradient(top right, #ee3150, #ed1c7c);
+  background-image: -o-linear-gradient(top right, #ee3150, #ed1c7c);
+  background-image: linear-gradient(to bottom left, #ee3150, #ed1c7c);
+}
+/* ======= end Submit ======= */
+
+/* ======= Notice ======= */
+.login__notice {
+  background-color: rgba(0,0,0,.1);
+  color: white;
+  padding: 2rem;
+}
+.login__notice h5 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+/* ======= end Notice ======= */
+
+/* ======= Footer ======= */
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: transparent;
+}
+/* ======= end Footer ======= */

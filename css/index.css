@@ -1,0 +1,178 @@
+/* ======= Breadcrsumb Sort ======= */
+.site__sort .breadcrumb {
+  background-color: transparent;
+  padding-right: 0;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+.site__sort .breadcrumb-item {
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+}
+.site__sort .breadcrumb-item:hover,
+.site__sort .breadcrumb-item.active {
+  font-weight: bold;
+}
+.site__sort .breadcrumb-item::before {
+  font-weight: normal;
+  color: white;
+}
+.site__sort .breadcrumb-item+.breadcrumb-item::before {
+  content: '|';
+}
+/* ======= end Breadcrumb Sort ======= */
+
+/* ======= Account ======= */
+@media (min-width: 768px) {
+  .site__account {
+    padding-top: 25px;
+  }
+}
+.site__account div:first-child {
+  background-color: rgba(0,0,0,.5);
+}
+.site__account .avatar {
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#ee3150), to(#ed1c7c));
+  background-image: -webkit-linear-gradient(top right, #ee3150, #ed1c7c);
+  background-image: -o-linear-gradient(top right, #ee3150, #ed1c7c);
+  background-image: linear-gradient(to bottom left, #ee3150, #ed1c7c);
+}
+.site__account .user {
+  background-color: rgba(0, 0, 0, .3);
+  padding: .8rem 1rem;
+  padding-bottom: 0;
+  display: inline-block;
+}
+.site__account .user + div {
+  display: inline-block;
+  height: 92.8px;
+}
+.site__account .user p:first-child {
+  font-weight: lighter;
+  color: white;
+  font-size: 1rem;
+  text-align: right;
+  margin-bottom: .5rem;
+}
+.site__account .user p:nth-child(2) {
+  margin-bottom: 0;
+  text-align: right;
+}
+.site__account .user span {
+  font-size: 2rem;
+  color: white;
+  font-weight: 600;
+}
+/* ======= end Account ======= */
+
+/* ======= Slide ======= */
+[class*="site__section2"] {
+  margin-bottom: 10rem;
+}
+[class*="site__section2"] .carousel-indicators {
+  bottom: -1.5rem;
+}
+[class*="site__section2"] .carousel-indicators li {
+  border-radius: 50%;
+  height: 12px;
+  width: 12px;
+  cursor: pointer;
+}
+[class*="site__section2"] .carousel-item {
+  padding: 2rem 3rem 1rem 3rem;
+}
+[class*="site__section2"] .carousel-item > div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+@media (min-width: 576px) {
+  [class*="site__section2"] .carousel-item {
+    padding: 2rem 10rem 1rem 10rem;
+  }
+}
+[class*="site__section2"] .block {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+[class*="site__section2"] .block.pad div {
+  cursor: default;
+  display: none;
+}
+@media (min-width: 576px) {
+  [class*="site__section2"] .block.pad div {
+    display: inline-block;
+  }
+}
+[class*="site__section2"] .block div {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  background-color: transparent;
+  -webkit-transition: .2s ease-in-out;
+  -o-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+@media (min-width: 576px) {
+  [class*="site__section2"] .block div {
+    width: 150px;
+    height: 150px;
+  }
+}
+[class*="site__section2"] .block div:hover {
+  -webkit-transition: .2s ease-in-out;
+  -o-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+  backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.2);
+  -ms-transform: translateZ(0) scale(1.2);
+  transform: translateZ(0) scale(1.2);
+}
+[class*="site__section2"] .block.huy-dong div {
+  background-image: url('../assets/icon_huydong.png');
+  background-size:100% 100%;
+}
+[class*="site__section2"] .block.incentive div {
+  background-image: url('../assets/icon_incentive.png');
+  background-size:100% 100%;
+}
+[class*="site__section2"] .block.incentive-1 div {
+  background-image: url('../assets/icon_incentive1.png');
+  background-size:100% 100%;
+}
+[class*="site__section2"] .block.bao-hiem div{
+  background-image: url('../assets/icon_baohiem.png');
+  background-size:100% 100%;
+}
+[class*="site__section2"] .block.the-tin-dung div {
+  background-image: url('../assets/icon_ttd.png');
+  background-size:100% 100%;
+}
+[class*="site__section2"] .block.upl div{
+  background-image: url('../assets/icon_upl.png');
+  background-size:100% 100%;
+}
+[class*="site__section2"] .block p {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 0;
+  font-size: 0.8rem;
+}
+@media(min-width: 576px) {
+  [class*="site__section2"] .block p {
+    font-size: 1rem;    
+  }
+}
+/* [class*="site__section2"] .carousel-item:nth-of-type(2) .block div {
+  background-color: #3d2ab6;
+}
+[class*="site__section2"] .carousel-item:nth-of-type(3) .block div {
+  background-color: #2c9b70;
+} */
+/* ======= end Slide ======= */

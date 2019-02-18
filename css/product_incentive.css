@@ -1,0 +1,176 @@
+body {
+  color: rgb(57, 57, 57);
+  background:  none;
+  background-color: #fafafa !important;
+}
+header.masthead {
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 13%;
+  width: 100%;
+  background-color: #212529;
+  opacity: .5;
+}
+header.masthead .page-heading, header.masthead .post-heading, header.masthead .site-heading {
+  padding: 75px 0;
+}
+.site-heading div {
+  text-align: center;
+  padding: 40px;
+  color: white;
+  border: 3px solid rgba(221, 221, 221, .4);
+}
+.site-heading h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.site-heading h4 {
+  font-weight: lighter;
+}
+[class*="site__section"] {
+  margin-bottom: 2rem;
+}
+[class*="site__section"] .title {
+  border-radius: 0.25rem;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: white;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#ee3150), to(#ed1a80));
+  background-image: -webkit-linear-gradient(top right, #ee3150, #ed1a80);
+  background-image: -o-linear-gradient(top right, #ee3150, #ed1a80);
+  background-image: linear-gradient(to bottom left, #ee3150, #ed1a80);
+  background-color: #ee3150;
+}
+.site__section1 .change h1 {
+  font-size: 1.5rem;
+}
+[class*="site__section"] .item {
+  margin-bottom: 1rem;
+}
+[class*="site__section"] .item h1 {
+  font-size: 1.5rem;
+}
+[class*="site__section"] .item label {
+  cursor: pointer;
+}
+[class*="site__section"] .item .result {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.site__progress {
+  width: 80%;
+  position: fixed;
+  bottom: 30px;
+  right: 70px;
+  height: 1.25rem;
+  -webkit-box-shadow: 3px 3px 13px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    3px 3px 13px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         3px 3px 13px 0px rgba(50, 50, 50, 0.75);
+}
+@media (min-width: 576px) {
+  .site__progress {
+    width: 30%;
+  }
+}
+.site__progress .finish {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  color: black;
+}
+.site__section3 .btn-group {
+  justify-content: space-around;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+.site__section3 .btn-item {
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  padding: .5rem 2.5rem;
+  background-color: #dbe7f0;
+  border: none;
+  color: black;
+  border-radius: .25rem;
+  text-transform: capitalize;
+} 
+.site__section3 .btn-item:hover,
+.site__section3 .btn-item.active {
+  background-color: #89afd0  ;
+  color: white;
+}
+
+@media (min-width: 992px) {
+  .site__section3 .btn-item + .site__section3 .btn-item {
+    margin-left: 3rem;
+  }
+}
+a[download] {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  color: #54c39e;
+  font-weight: 700;
+}
+[class*="site__section"] table {
+  width: 100%;
+  border-collapse:collapse;
+  border-spacing:0;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+[class*="site__section"] table td {
+  padding:1rem;
+  border-style:solid;
+  border-width:1px;
+  overflow:hidden;
+  word-break:normal;
+  border-color:black; 
+}
+[class*="site__section"] table th {
+  font-weight:normal;
+  padding:1rem;
+  border-style:solid;
+  border-width:1px;
+  overflow:hidden;
+  word-break:normal;
+  border-color:black;
+  color: white;
+  background-color: rgb(135, 135, 135);
+}
+[class*="site__section"] div p.indent {
+  margin-left: 1.5rem;
+}
+/* ======= Small Navbar ======= */
+.site__breadcrumb {
+  background-color: transparent;
+  padding: 0;
+}
+
+.site__breadcrumb a {
+  color: black;
+}
+.site__breadcrumb a:hover,
+.site__breadcrumb a:active,
+.site__breadcrumb .breadcrumb-item.active a {
+  color: #ee3150;
+  text-decoration: none;
+}
+.site__breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+  color: black;
+}
+/* ======= end Small Navbar ======= */

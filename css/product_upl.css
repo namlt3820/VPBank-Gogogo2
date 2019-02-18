@@ -1,0 +1,187 @@
+/* ======= Small Navbar ======= */
+.site__breadcrumb .breadcrumb {
+  background-color: transparent;
+}
+@media (min-width: 768px) {
+  .site__breadcrumb .breadcrumb {
+    padding-top: 30px;
+    padding-left: 9.6%;
+  }
+}
+.site__breadcrumb a {
+  color: rgba(255,255,255,.5);
+}
+.site__breadcrumb a:hover,
+.site__breadcrumb a:active,
+.site__breadcrumb .breadcrumb-item.active a {
+  color: white;
+  text-decoration: none;
+}
+.site__breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+  color: rgba(255,255,255,.5);
+}
+/* ======= end Small Navbar ======= */
+
+/* ======= Account ======= */
+@media (min-width: 768px) {
+  .site__account {
+    padding-top: 25px;
+  }
+}
+.site__account div:first-child {
+  background-color: rgba(0,0,0,.5);
+}
+.site__account .avatar {
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#ee3150), to(#ed1c7c));
+  background-image: -webkit-linear-gradient(top right, #ee3150, #ed1c7c);
+  background-image: -o-linear-gradient(top right, #ee3150, #ed1c7c);
+  background-image: linear-gradient(to bottom left, #ee3150, #ed1c7c);
+}
+.site__account .user {
+  background-color: rgba(0, 0, 0, .3);
+  padding: .8rem 1rem;
+  padding-bottom: 0;
+  display: inline-block;
+}
+.site__account .user + div {
+  display: inline-block;
+  height: 92.8px;
+}
+.site__account .user p:first-child {
+  font-weight: lighter;
+  color: white;
+  font-size: 1rem;
+  text-align: right;
+  margin-bottom: .5rem;
+}
+.site__account .user p:nth-child(2) {
+  margin-bottom: 0;
+  text-align: right;
+}
+.site__account .user span {
+  font-size: 2rem;
+  color: white;
+  font-weight: 600;
+}
+/* ======= end Account ======= */
+
+/* ======= Slide ======= */
+.site__slide {
+  background-color: transparent;
+  margin-bottom: 4rem;
+  position: relative;
+  top: -60px;
+}
+.site__slide .carousel-item {
+  padding: 0rem 3rem 1rem 3rem;
+}
+@media (min-width: 576px) {
+  .site__slide .carousel-item {
+    padding: 2rem 4rem 1rem 4rem;
+  }
+}
+@media (min-width: 768px) {
+  .site__slide .carousel-item {
+    padding: 2rem 12rem 1rem 12rem;
+  }
+}
+.site__slide .block {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+.site__slide .block div {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+  background-color: #ed1c7c;
+  cursor: pointer;
+  -webkit-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+.site__slide .block div:hover {
+  -webkit-transform: scale(0.1);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition: .6s ease-in-out;
+  -o-transition: .6s ease-in-out;
+  transition: .6s ease-in-out;
+}
+.site__slide .block p {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 0;
+}
+.site__slide .carousel-item:nth-of-type(2) .block div {
+  background-color: #3d2ab6;
+}
+.site__slide .carousel-item:nth-of-type(3) .block div {
+  background-color: #2c9b70;
+}
+.site__slide .carousel-indicators {
+  bottom: -3rem;
+}
+.site__slide .carousel-indicators li {
+  border-radius: 50%;
+  height: 12px;
+  width: 12px;
+  cursor: pointer;
+}
+/* ======= end Slide ======= */
+
+/* ======= Level ======= */
+.site__level {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: -3rem;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 80%;
+}
+.site__level > div {
+  margin-top: 3rem;
+  cursor: pointer;
+}
+.site__level > div > p {
+  text-align: center;
+  margin-bottom: 0;
+  background-color: #878787;
+  color: #ededed;
+  padding: .8rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+@media (min-width: 768px) {
+  .site__level > div > p {
+    font-size: 24px;
+  }
+}
+.site__level .placeholder {
+  height: 4rem;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .site__level .placeholder {
+    /* width: 18rem; */
+    height: 10rem; 
+    /* height: 500%; */
+    background-color: #fff;
+  }
+}
+@media (min-width: 992px) {
+  .site__level .placeholder {
+    /* width: 18rem; */
+    height: 16rem; 
+    /* height: 500%; */
+    background-color: #fff;
+  }
+}
+/* ======= end Level ======= */
