@@ -44,11 +44,13 @@ header.masthead .page-heading, header.masthead .post-heading, header.masthead .s
 }
 [class*="site__section"] .title {
   border-radius: 0.25rem;
-  padding: 1rem 2rem;
+  text-transform: uppercase;
+  padding: .75rem 2rem;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 2rem;
   color: white;
+  font-weight: 300;
   background-image: -webkit-gradient(linear, right top, left bottom, from(#ee3150), to(#ed1a80));
   background-image: -webkit-linear-gradient(top right, #ee3150, #ed1a80);
   background-image: -o-linear-gradient(top right, #ee3150, #ed1a80);

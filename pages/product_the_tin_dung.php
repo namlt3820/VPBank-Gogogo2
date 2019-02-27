@@ -16,7 +16,7 @@
 </head>
 <body>
   <!-- Navbar -->
-  <nav class="site__navbar navbar navbar-expand-lg navbar-dark">
+  <nav class="site__navbar navbar navbar-expand-lg navbar-dark fixed-top">
     <a class="navbar-brand" href="index.php">
       <img src="../assets/co_ban_logo.png" alt="co_ban_logo" >
     </a>
@@ -44,6 +44,8 @@
             <a class="dropdown-item" href="product_upl.php">UPL</a>
             <a class="dropdown-item" href="product_the_tin_dung.php">Thẻ tín dụng</a>
             <a class="dropdown-item" href="product_incentive.php">Incentive (2019)</a>
+            <a class="dropdown-item" href="product_huy_dong.php">Huy động</a>
+            <a class="dropdown-item" href="product_the_chap.php">Thế chấp</a>
           </div>
         </li>
         <li class="nav-item">

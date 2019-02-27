@@ -1,0 +1,98 @@
+body {
+  color: rgb(57, 57, 57);
+  background:  none;
+  background-color: #fafafa !important;
+}
+header.masthead {
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 13%;
+  width: 100%;
+  background-color: #212529;
+  opacity: .5;
+}
+header.masthead .page-heading, header.masthead .post-heading, header.masthead .site-heading {
+  padding: 75px 0;
+}
+.site-heading div {
+  text-align: center;
+  padding: 100px;
+  color: white;
+}
+[class*="site__section"] {
+  margin-bottom: 2rem;
+}
+[class*="site__section"] .title {
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+  padding: .75rem 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  color: white;
+  font-weight: 300;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#ee3150), to(#ed1a80));
+  background-image: -webkit-linear-gradient(top right, #ee3150, #ed1a80);
+  background-image: -o-linear-gradient(top right, #ee3150, #ed1a80);
+  background-image: linear-gradient(to bottom left, #ee3150, #ed1a80);
+  background-color: #ee3150;
+}
+label {
+  display: inline;
+  margin-left: 0.5rem;
+}
+li > div {
+  margin-bottom: .25rem;
+}
+input[type="submit"] {
+  border-radius: 0.25rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: .75rem 2rem;
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#ee3150), to(#ed1a80));
+  background-image: -webkit-linear-gradient(top right, #ee3150, #ed1a80);
+  background-image: -o-linear-gradient(top right, #ee3150, #ed1a80);
+  background-image: linear-gradient(to bottom left, #ee3150, #ed1a80);
+  background-color: #ee3150;
+}
+[class*="site__section"] img {
+  margin-bottom: 2rem;
+} 
+[class*="site__section"] ul {
+  margin-bottom: 1rem;
+} 
+/* ======= Small Navbar ======= */
+.site__breadcrumb {
+  background-color: transparent;
+  padding: 0;
+}
+.site__breadcrumb a {
+  color: black;
+  text-transform: uppercase;
+}
+.site__breadcrumb a:hover,
+.site__breadcrumb a:active,
+.site__breadcrumb .breadcrumb-item.active a {
+  color: #ee3150;
+  text-decoration: none;
+}
+.site__breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+  color: black;
+}
+/* ======= end Small Navbar ======= */

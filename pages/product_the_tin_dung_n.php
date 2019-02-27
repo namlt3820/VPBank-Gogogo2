@@ -1,20 +1,21 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../assets/bootstrap.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../assets/bootstrap.min.css">
 
-    <!-- Other -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&amp;subset=vietnamese" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/regular.css">
-    <link rel="stylesheet" href="../css/upl_co_ban.css">
-  </head>
-  <body>
+  <!-- Other -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&amp;subset=vietnamese" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/regular.css">
+  <link rel="stylesheet" href="../css/product_the_tin_dung_n.css">
+</head>
+<body>
+  <div style="background-color: rgba(0,0,0,.2);">
     <!-- Navbar -->
     <nav class="site__navbar navbar navbar-expand-lg navbar-dark fixed-top">
       <a class="navbar-brand" href="index.php">
@@ -66,16 +67,15 @@
     <!-- end Navbar -->
 
     <!-- Small Navbar and Account -->
-    <div class="site__section1 container-fluid">
-      <div class="row justify-content-md-between">
+    <div class="container-fluid">
+      <div class="row justify-content-md-between site__section-1">
 
         <!-- Small Navbar -->
         <div class="site__breadcrumb col-md-6">
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="index.php">TRANG CHỦ</a></li>
-              <li class="breadcrumb-item"><a href="product_upl.php">UPL</a></li>
-              <li class="breadcrumb-item active"><a href="upl_co_ban.php">CƠ BẢN</a></li>
+              <li class="breadcrumb-item active"><a href="product_the_tin_dung_n.php">THẺ TÍN DỤNG</a></li>
             </ol>
           </nav>
         </div> 
@@ -153,99 +153,116 @@
     </div> 
     <!-- end Small Navbar and Account -->
 
-    <!-- Route and Placeholder -->
-    <div class="site__section2 container-fluid pt-4 mb-5">
-      <div class="row justify-content-md-around justify-content-center">
-
-        <!-- Route -->
-        <div class="site__route col-md-6 col-12 order-2 order-md-1 text-center text-md-left">
-          <h1>chặng 1</h1>
-          <p>BẠN ĐÃ HOÀN THÀNH 3/5 THỬ THÁCH</p>
-          <div class="d-flex justify-content-md-start justify-content-center">
-            <button><a href="http://vpbrbqa-com.stackstaging.com/upl/de1/"></a> CHƠI NGAY</button>
-            <button><a href="product_upl.php"></a> QUAY lại</button>
+    <!-- choose routes -->
+    <div class="site__section-2">
+      <div class="site__levels d-flex justify-content-around">
+        <button class="mr-2 co-ban" data-toggle="collapse" data-target=".route-1">Cơ bản</button>
+        <button class="nang-cao" data-toggle="collapse" data-target=".route-2">Nâng cao</button>
+      </div>
+      <div class="site__routes">
+        <div class="route-1 collapse" data-parent=".site__routes">
+          <div class="container-fluid carousel slide">
+            <ol class="carousel-indicators">
+              <li data-target=".route-1" data-slide-to="0" class="active"></li>
+              <li data-target=".route-1" data-slide-to="1"></li>
+              <li data-target=".route-1" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div>
+                  <div class="block ttd-co-ban-1-checked">
+                  </div>
+                  <div class="block ttd-co-ban-2">
+                  </div>
+                  <div class="block ttd-co-ban-3">
+                  </div>
+                  <div class="block ttd-co-ban-4">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item"> 
+              </div>
+            </div>
+            <a class="carousel-control-prev" href=".route_1" role="button" data-slide="prev">
+              <svg aria-hidden="true" width="22px" height="60px" viewBox="0 0 16 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+                <desc>Created with Sketch.</desc>
+                <defs></defs>
+                <g id="Page-1" stroke="none" stroke-width="1" fill="#ffffff" fill-rule="evenodd">
+                    <g id="noun_left-arrow_791407" transform="translate(-42.000000, 0.000000)" fill="#ffffff" fill-rule="nonzero">
+                        <path d="M56.931,0.873 C57.397,1.166 57.537,1.786 57.242,2.252 L44.751,22 L57.241,41.748 C57.538,42.216 57.397,42.833 56.93,43.128 C56.463,43.423 55.846,43.284 55.551,42.817 L42.758,22.589 C42.653,22.423 42.603,22.238 42.603,22.055 C42.603,22.036 42.609,22.018 42.61,21.999 C42.609,21.98 42.603,21.962 42.603,21.943 C42.603,21.76 42.653,21.575 42.758,21.409 L55.552,1.182 C55.847,0.717 56.464,0.577 56.931,0.873 Z" id="Shape"></path>
+                    </g>
+                </g>
+              </svg>
+            </a>
+            <a class="carousel-control-next" href=".route_1" role="button" data-slide="next">
+              <svg aria-hidden="true" width="22px" height="60px" viewBox="0 0 16 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+                <desc>Created with Sketch.</desc>
+                <defs></defs>
+                <g id="Page-1" stroke="none" stroke-width="1" fill="#ffffff" fill-rule="evenodd">
+                    <g id="noun_left-arrow_791407" transform="translate(-42.000000, 0.000000)" fill="#ffffff" fill-rule="nonzero">
+                        <path d="M56.931,0.873 C57.397,1.166 57.537,1.786 57.242,2.252 L44.751,22 L57.241,41.748 C57.538,42.216 57.397,42.833 56.93,43.128 C56.463,43.423 55.846,43.284 55.551,42.817 L42.758,22.589 C42.653,22.423 42.603,22.238 42.603,22.055 C42.603,22.036 42.609,22.018 42.61,21.999 C42.609,21.98 42.603,21.962 42.603,21.943 C42.603,21.76 42.653,21.575 42.758,21.409 L55.552,1.182 C55.847,0.717 56.464,0.577 56.931,0.873 Z" id="Shape" transform="translate(49.999859, 22.000234) rotate(180.000000) translate(-49.999859, -22.000234) "></path>
+                    </g>
+                </g>
+              </svg>
+            </a>
           </div>
-        </div><!-- end Route -->
-
-        <!-- Placeholder -->
-        <div class="site__white col-xl-3 col-md-5 col-sm-6 col-10 order-1 order-md-2">
-        </div><!-- end Placeholder -->
+          <div class="info row justify-content-center">
+            <p class="col-lg-6 col-md-8 col-10">Thông tin hướng dẫn cho người học<br><br><br></p>
+          </div>
+        </div>
+        <div class="route-2 collapse" data-parent=".site__routes">
+          <div class="container-fluid carousel slide">
+            <ol class="carousel-indicators">
+              <li data-target=".route-2" data-slide-to="0" class="active"></li>
+              <li data-target=".route-2" data-slide-to="1"></li>
+              <li data-target=".route-2" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div>
+                  <div class="block ttd-nang-cao-1">
+                  </div>
+                  <div class="block ttd-nang-cao-1-checked">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item"> 
+              </div>
+            </div>
+            <a class="carousel-control-prev" href=".route_2" role="button" data-slide="prev">
+              <svg aria-hidden="true" width="22px" height="60px" viewBox="0 0 16 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+                <desc>Created with Sketch.</desc>
+                <defs></defs>
+                <g id="Page-1" stroke="none" stroke-width="1" fill="#ffffff" fill-rule="evenodd">
+                    <g id="noun_left-arrow_791407" transform="translate(-42.000000, 0.000000)" fill="#ffffff" fill-rule="nonzero">
+                        <path d="M56.931,0.873 C57.397,1.166 57.537,1.786 57.242,2.252 L44.751,22 L57.241,41.748 C57.538,42.216 57.397,42.833 56.93,43.128 C56.463,43.423 55.846,43.284 55.551,42.817 L42.758,22.589 C42.653,22.423 42.603,22.238 42.603,22.055 C42.603,22.036 42.609,22.018 42.61,21.999 C42.609,21.98 42.603,21.962 42.603,21.943 C42.603,21.76 42.653,21.575 42.758,21.409 L55.552,1.182 C55.847,0.717 56.464,0.577 56.931,0.873 Z" id="Shape"></path>
+                    </g>
+                </g>
+              </svg>
+            </a>
+            <a class="carousel-control-next" href=".route_2" role="button" data-slide="next">
+              <svg aria-hidden="true" width="22px" height="60px" viewBox="0 0 16 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+                <desc>Created with Sketch.</desc>
+                <defs></defs>
+                <g id="Page-1" stroke="none" stroke-width="1" fill="#ffffff" fill-rule="evenodd">
+                    <g id="noun_left-arrow_791407" transform="translate(-42.000000, 0.000000)" fill="#ffffff" fill-rule="nonzero">
+                        <path d="M56.931,0.873 C57.397,1.166 57.537,1.786 57.242,2.252 L44.751,22 L57.241,41.748 C57.538,42.216 57.397,42.833 56.93,43.128 C56.463,43.423 55.846,43.284 55.551,42.817 L42.758,22.589 C42.653,22.423 42.603,22.238 42.603,22.055 C42.603,22.036 42.609,22.018 42.61,21.999 C42.609,21.98 42.603,21.962 42.603,21.943 C42.603,21.76 42.653,21.575 42.758,21.409 L55.552,1.182 C55.847,0.717 56.464,0.577 56.931,0.873 Z" id="Shape" transform="translate(49.999859, 22.000234) rotate(180.000000) translate(-49.999859, -22.000234) "></path>
+                    </g>
+                </g>
+              </svg>
+            </a>
+          </div>
+          <div class="info row justify-content-center">
+            <p class="col-lg-6 col-md-8">Thông tin hướng dẫn cho người học<br><br><br></p>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- end Route and Placeholder -->
-
-    <!-- Slide -->
-    <div class="site__section3 container-fluid carousel slide">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="block">
-            <div></div>
-            <p>Chặng 1</p>
-          </div>
-          <div class="block">
-            <div></div>
-            <p>Chặng 2</p>
-          </div>
-          <div class="block">
-            <div></div>
-            <p>Chặng 3</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="block">
-            <div></div>
-            <p>Chặng 1</p>
-          </div>
-          <div class="block">
-            <div></div>
-            <p>Chặng 2</p>
-          </div>
-          <div class="block">
-            <div></div>
-            <p>Chặng 3</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="block">
-            <div></div>
-            <p>Chặng 1</p>
-          </div>
-          <div class="block">
-            <div></div>
-            <p>Chặng 2</p>
-          </div>
-          <div class="block">
-            <div></div>
-            <p>Chặng 3</p>
-          </div>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href=".site__section3" role="button" data-slide="prev">
-        <svg aria-hidden="true" width="22px" height="60px" viewBox="0 0 16 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-          <desc>Created with Sketch.</desc>
-          <defs></defs>
-          <g id="Page-1" stroke="none" stroke-width="1" fill="#ffffff" fill-rule="evenodd">
-              <g id="noun_left-arrow_791407" transform="translate(-42.000000, 0.000000)" fill="#ffffff" fill-rule="nonzero">
-                  <path d="M56.931,0.873 C57.397,1.166 57.537,1.786 57.242,2.252 L44.751,22 L57.241,41.748 C57.538,42.216 57.397,42.833 56.93,43.128 C56.463,43.423 55.846,43.284 55.551,42.817 L42.758,22.589 C42.653,22.423 42.603,22.238 42.603,22.055 C42.603,22.036 42.609,22.018 42.61,21.999 C42.609,21.98 42.603,21.962 42.603,21.943 C42.603,21.76 42.653,21.575 42.758,21.409 L55.552,1.182 C55.847,0.717 56.464,0.577 56.931,0.873 Z" id="Shape"></path>
-              </g>
-          </g>
-        </svg>
-      </a>
-      <a class="carousel-control-next" href=".site__section3" role="button" data-slide="next">
-        <svg aria-hidden="true" width="22px" height="60px" viewBox="0 0 16 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-          <desc>Created with Sketch.</desc>
-          <defs></defs>
-          <g id="Page-1" stroke="none" stroke-width="1" fill="#ffffff" fill-rule="evenodd">
-              <g id="noun_left-arrow_791407" transform="translate(-42.000000, 0.000000)" fill="#ffffff" fill-rule="nonzero">
-                  <path d="M56.931,0.873 C57.397,1.166 57.537,1.786 57.242,2.252 L44.751,22 L57.241,41.748 C57.538,42.216 57.397,42.833 56.93,43.128 C56.463,43.423 55.846,43.284 55.551,42.817 L42.758,22.589 C42.653,22.423 42.603,22.238 42.603,22.055 C42.603,22.036 42.609,22.018 42.61,21.999 C42.609,21.98 42.603,21.962 42.603,21.943 C42.603,21.76 42.653,21.575 42.758,21.409 L55.552,1.182 C55.847,0.717 56.464,0.577 56.931,0.873 Z" id="Shape" transform="translate(49.999859, 22.000234) rotate(180.000000) translate(-49.999859, -22.000234) "></path>
-              </g>
-          </g>
-        </svg>
-      </a>
-    </div>
-    <!-- end Slide -->
+    <!-- end choose routes -->
 
     <!-- Footer -->
     <footer>
@@ -253,32 +270,26 @@
     </footer>
     <button class="footer__to-top"><i class="fas fa-chevron-up"></i></button>
     <!-- end Footer -->
-    <!-- JavaScript Files -->
-    <script src="../assets/jquery-3.2.1.min.js"></script>
-    <script src="../assets/jquery-ui.min.js"></script>
-    <script src="../assets/popper.min.js"></script>
-    <script src="../assets/bootstrap.min.js"></script>
-    <script src="../assets/regular.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $('.site__section3').carousel({
-          pause: true,
-          interval: false
-        });
+  </div>
+  <!-- JavaScript Files -->
+  <script src="../assets/jquery-3.2.1.min.js"></script>
+  <script src="../assets/jquery-ui.min.js"></script>
+  <script src="../assets/popper.min.js"></script>
+  <script src="../assets/bootstrap.min.js"></script>
+  <script src="../assets/regular.js"></script>
+  <button class="footer__to-top"><i class="fas fa-chevron-up"></i></button>
+  <!-- end JavaScript Files -->
 
-        slideAccount($('.site__account'), 'translate(82%)')
-
-        $('.block').click(function() {
-          var chang_number = $(this).find('p')[0].textContent
-          $('.site__route h1').text(chang_number)
-          var chang_url = 'http://vpbrbqa-com.stackstaging.com/upl/de' + chang_number.slice(-1) + '/'
-          $('.site__route button:first-child a').attr('href', chang_url)
-        })
-
-        $('.site__route button').click(function() {
-          $(this).children('a')[0].click()
-        })
-      });
-    </script>
-  </body>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      slideAccount($('.site__account'), 'translate(82%)')
+      
+      // at least one slide section is shown
+      $('.site__routes .collapse').on('hidden.bs.collapse', function () {
+          $('.site__routes .collapse').eq(0).collapse('show');
+      })
+      $('.co-ban').click()
+    })
+  </script>
+</body>
 </html>

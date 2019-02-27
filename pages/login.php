@@ -30,7 +30,7 @@
           <hr>
           <form action="" method="post" id="login__form">
             <input id="username" name="username" placeholder="username">
-            <input id="password" name="password" placeholder="password">
+            <input id="password" name="password" placeholder="password" type="password">
             <div class="d-flex align-items-center justify-content-end">
               <!-- <div class="remember-me d-flex align-items-center">
                 <input type="checkbox" id="remember_me" name="remember_me">

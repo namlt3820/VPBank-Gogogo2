@@ -8,6 +8,7 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+  padding-top: 66px;
   /*
   background: url('../assets/co_ban_background.jpg') no-repeat center center; 
   -webkit-background-size: cover;
@@ -56,9 +57,6 @@ body {
 .site__navbar .separator a:focus {
   color: rgba(255,255,255,.5) !important;
   cursor: auto;
-}
-.site__navbar .dropdown-menu {
-  border: none;
 }
 .site__navbar .nav-item:hover .nav-link {
   color: white;
